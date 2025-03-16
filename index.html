@@ -1,38 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <title> Online Tea House – Premium Teas Delivered to Your Doorstep </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Online Tea House – Premium Teas Delivered to Your Doorstep</title>
     <!-- FontAwsome CDN -->
-    <script src="https://kit.fontawesome.com/613a134748.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/613a134748.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                    }
-                }
-            }
-        }
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
     </script>
 
     <!-- Favicon Logo Add -->
-    <link rel="shortcut icon" href="images/tea-1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/tea-1.png" type="image/x-icon" />
+  </head>
 
-</head>
+  <body>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+      <!-- header section start -->
+      <header
+        class="md:flex lg:flex pt-10 mb-20 gap-5 justify-center items-center"
+      >
+        <!-- text content -->
+        <div>
+          <h1 class="text-5xl sm:text-3xl md:text-6xl font-semibold font-serif  ">
+            It's good <br />tea time at The <br />Tea House
+          </h1>
+          <br />
+          <p class="text-gray-500 w-3/4">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <br />
+          <button
+            class="bg-gradient-to-r from-orange-500 to-red-500 px-4 py-3 rounded-lg text-white text-xl items-center"
+          >
+            Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </button>
+        </div>
+        <!-- img content  -->
+        <div class="relative">
+          <!-- image -->
+          <div><img class="w-full" src="images/banner.png" alt="" /></div>
+          <!-- header-card -->
+          <div
+            class="bg-white drop-shadow-lg px-4 py-3 flex items-center absolute rounded-lg top-28 md:top-80 md:left-32 lg:left-28"
+          >
+            <!-- Icon -->
+            <div><i class="fa-solid fa-star text-amber-500 text-3xl"></i></div>
+            <!-- text Content -->
+            <div class="ml-2">
+              <h2 class="text-2xl font-bold">5.00</h2>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header section End -->
 
-<body>
-    
+      <!-- Featured section Start -->
+
+      <section class="py-8 lg:py-24 mb-8">
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Our Featured Products
+          </h2>
+          <p class="text-[16px] text-gray-500 font-serif max-w-xl mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <!-- Grid Cards -->
+          <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-4 mt-24">
+            <!-- product cards -->
+            <div class="rounded-lg shadow-md bg-gray-100 py-8 overflow-hidden ">
+              <img class="mx-auto" src="images/tea-1.png" alt="" />
+              <h3 class="font-serif font-extrabold text-3xl py-3">Milk Tea</h3>
+              <p class="font-serif text-gray-500 w-3/4 mx-auto">Creamer could be replaced by fresh milk</p>
+            </div> 
+            
+            <!-- product cards -->
+            <div class="rounded-lg shadow-md bg-gray-100 py-8 overflow-hidden ">
+              <img class="mx-auto" src="images/tea-2.png" alt="" />
+              <h3 class="font-serif font-extrabold text-3xl py-3">Black Tea</h3>
+              <p class="font-serif text-gray-500 w-3/4 mx-auto">Creamer could be replaced by fresh milk</p>
+            </div>
+
+   
+            <!-- product cards -->
+            <div class="rounded-lg shadow-md bg-gray-100 py-8 overflow-hidden ">
+              <img class="mx-auto" src="images/tea-3.png" alt="" />
+              <h3 class="font-serif font-extrabold text-3xl py-3">Lemon Tea</h3>
+              <p class="font-serif text-gray-500 w-3/4 mx-auto">Creamer could be replaced by fresh milk</p>
+            </div>
+
+   
+            <!-- product cards -->
+            <div class="rounded-lg shadow-md bg-gray-100 py-8 overflow-hidden ">
+              <img class="mx-auto" src="images/tea-4.png" alt="" />
+              <h3 class="font-serif font-extrabold text-3xl py-3"> Green Tea</h3>
+              <p class="font-serif text-gray-500 w-3/4 mx-auto">Creamer could be replaced by fresh milk</p>
+            </div>
 
 
 
-</body>
+          </div>
+        </div>
+      </section>
+      <!-- Featured section End -->
+    </main>
+  </body>
 </html>
